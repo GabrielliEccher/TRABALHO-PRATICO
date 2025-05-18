@@ -1,0 +1,52 @@
+:root {
+    --ciano: rgba(181, 222, 214, 1);
+    --ciano-escuro: rgba(122, 149, 144, 1);
+    --bege: rgba(217, 185, 160, 1);
+    --areia: rgba(241, 231, 221, 1);
+    --marrom: rgba(167, 95, 55, 1);
+    --rosa:rgba(201, 143, 131, 1);
+    --rosa-claro: rgba(242, 213, 205, 1);
+    --preto: rgba(41, 36, 33, 1);
+
+         
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: var(--ciano);
+}
+
+nav li{
+display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: var(--ciano-escuro);
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover{
+    background-color: var(--ciano-escuro);
+    color: var(--ciano);
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 2 2 rgb(209, 209, 209);
+    display: none;
+}
+
+.dropdown-menu a{
+display: block;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
