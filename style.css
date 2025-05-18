@@ -17,6 +17,8 @@
     box-sizing: border-box;
 }
 
+/* dropdown menu */
+
 nav{
     background-color: var(--ciano);
 }
@@ -30,6 +32,7 @@ nav li a{
     color: var(--ciano-escuro);
     text-decoration: none;
     padding: 15px;
+    background-color: var(--ciano);
 }
 
 nav li a:hover{
