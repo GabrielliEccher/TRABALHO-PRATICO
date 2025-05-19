@@ -35,6 +35,12 @@ nav{
 nav a{
     text-decoration: none;
     color: var(--ciano-escuro);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+
+    .
+
 }
 
 /* dropdown menu */
