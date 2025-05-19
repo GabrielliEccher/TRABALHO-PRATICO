@@ -27,8 +27,8 @@ h2{
 
 /* dropdown menu */
 
-nav{
-    background-color: var(--ciano);
+.nav{
+    background-color: var(--areia);
     font-size: 22px;
 }
 
@@ -38,15 +38,15 @@ display: inline-block;
 
 nav li a{
     display: inline-block;
-    color: var(--ciano-escuro);
+    color: var(--marrom);
     text-decoration: none;
     padding: 20px;
-    background-color: var(--ciano);
+    background-color: var(--areia);
 }
 
 nav li a:hover{
-    background-color: var(--ciano-escuro);
-    color: var(--ciano);
+    background-color: var(--marrom);
+    color: var(--bege);
 }
 
 .dropdown-menu{
