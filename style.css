@@ -25,6 +25,18 @@ h2{
     font-size: 26;
 }
 
+/* barra nav */
+
+nav{
+    background-color: var(--ciano);
+    color: var(--ciano-escuro);
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--ciano-escuro);
+}
+
 /* dropdown menu */
 
 .nav{
