@@ -30,6 +30,7 @@ h2{
 nav{
     background-color: var(--ciano);
     color: var(--ciano-escuro);
+    display: flex;
 }
 
 nav a{
@@ -37,17 +38,38 @@ nav a{
     color: var(--ciano-escuro);
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     font-size: 22px;
-
-    .
-
 }
+
+.nav-logo{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 5px 50px 5px 5px;
+}
+
+.nav-conta{
+    text-decoration: none;
+    color: var(--ciano-escuro);
+    background-color: var(--ciano);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+}
+
+nav a{
+    padding: 15px;
+}
+
 
 /* dropdown menu */
 
 .nav{
     background-color: var(--areia);
     font-size: 22px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav li{
@@ -58,7 +80,7 @@ nav li a{
     display: inline-block;
     color: var(--marrom);
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 50px;
     background-color: var(--areia);
 }
 
@@ -83,10 +105,14 @@ display: block;
 
 /* main */
 
+/* BANNER */
+
 .img-banner{
     width: 100%;
     margin: 35px 0px;
 }
+
+/* PRODUTOS */
 
 .secao-produtos {
     text-align: center;
