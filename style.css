@@ -17,6 +17,7 @@
     box-sizing: border-box;
 }
 
+
 /* dropdown menu */
 
 nav{
@@ -31,7 +32,7 @@ nav li a{
     display: inline-block;
     color: var(--ciano-escuro);
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     background-color: var(--ciano);
 }
 
@@ -52,4 +53,11 @@ display: block;
 
 .dropdown:hover .dropdown-menu{
     display: block;
+}
+
+/* main */
+
+.secao-produtos {
+    text-align: center;
+    font-size: 2em;
 }
