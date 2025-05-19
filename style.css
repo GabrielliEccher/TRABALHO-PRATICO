@@ -20,12 +20,16 @@
 
 h2{
     color: var(--marrom);
+    text-align: left;
+    padding: 20px;
+    font-size: 26;
 }
 
 /* dropdown menu */
 
 nav{
     background-color: var(--ciano);
+    font-size: 22px;
 }
 
 nav li{
@@ -60,6 +64,11 @@ display: block;
 }
 
 /* main */
+
+.img-banner{
+    width: 100%;
+    margin: 35px 0px;
+}
 
 .secao-produtos {
     text-align: center;
@@ -111,9 +120,7 @@ footer a{
 
 .footer-info-geral{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-
 }
 
 .footer-rede-social{
