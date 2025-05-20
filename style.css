@@ -60,6 +60,7 @@ padding: 5px 50px 5px 5px;
 
 nav a{
     padding: 15px;
+    text-align: center;
 }
 
 
@@ -91,7 +92,6 @@ nav li a:hover{
 
 .dropdown-menu{
     position: absolute;
-    box-shadow: 0 2 2 rgb(209, 209, 209);
     display: none;
 }
 
@@ -114,7 +114,12 @@ display: block;
 
 /* PRODUTOS */
 
+    .container{
+        display: flex;
+        justify-content: center;
+    }
 
+    
 
 /* rodapé */
 
