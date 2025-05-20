@@ -114,28 +114,7 @@ display: block;
 
 /* PRODUTOS */
 
-.secao-produtos {
-    text-align: center;
-    font-size: 2em;
-}  
 
-.card-produto {
-    border: 1px solid #333;
-    border-radius: 10px;
-    width: 20%;
-    padding: 20px;
-    font-size: 18px;
-}
-
-.card-produto img {
-    width: 80%;
-}
-
-.container-produtos {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 10px;
-}
 
 /* rodapé */
 
