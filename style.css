@@ -207,6 +207,39 @@ button:hover{
 }
 
 
+.tdcachorro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    flex-direction: row;
+
+    margin-bottom: 45px;            
+    margin-top: 15px;
+
+}
+
+.card{
+    width: 100px;
+    text-align: center;
+}
+
+
+.card img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  background-color: white;
+  border: 5px solid var(--areia);
+  border-radius: 50%;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+
 
 
 /* RODAPÉ */
