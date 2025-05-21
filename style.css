@@ -211,8 +211,7 @@ button:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 200px;
-    flex-direction: row;
+    gap: 150px;
 
     margin-bottom: 45px;            
     margin-top: 15px;
