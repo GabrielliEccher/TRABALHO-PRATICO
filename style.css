@@ -206,7 +206,10 @@ button:hover{
     transform: scale(1.1);  /*Aumenta o botão */
 }
 
-/* rodapé */
+
+
+
+/* RODAPÉ */
 
 footer{
     background-color: var(--ciano);
