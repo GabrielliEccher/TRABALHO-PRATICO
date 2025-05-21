@@ -117,9 +117,56 @@ display: block;
     .container{
         display: flex;
         justify-content: center;
+        align-items: center;
+        background-color: var(--rosa-claro);
+        padding: 30px;   /*espaço baixo e topo*/
     }
 
-    
+    .itens {
+    display: flex;
+    flex-wrap: wrap;  /*faz quebra de linha conforme o tamanho da tela*/
+    gap: 100px;     /*espaçamento entre os produtos*/
+}
+
+
+/*imagem produto*/
+
+    .produto{
+        background-color: rgb(255, 255, 255);    /*fundo apenas onde esta img*/
+        height: 230px;                             /*altura img*/
+        width: 100%;                               /*100% da largura do elemento pai*/
+    }
+
+/*conteudo produto*/
+
+    .item{
+        background-color: white;       /*fundo parte do card que não é a img*/
+        border: 2px solid var(--rosa);   /*borda card*/
+        border-radius: 5px;     
+
+        display: flex;
+        flex-direction: column;      /*deixar conteudo embaixo um do outro*/
+        justify-content: center;     /*centraliza horizontal*/
+        align-items: center;         /*centraliza vertical*/
+        text-align: center;          /*centralizar texto*/
+
+        width: 250px;               /*largura e altura card*/
+        height: 350px;
+    }
+
+.item img {
+    height: auto;                   /*mantem a proporção original da imagem */
+    max-height: 180px;              /*limite de altura */
+    max-width: 100%;                /*A imagem não vai ultrapassar a largura do seu conteiner*/
+}
+
+/*valor itens*/
+
+span{
+    color: var(--marrom);
+    padding: 13px;
+    font-weight: bold;
+}
 
 /* rodapé */
 
