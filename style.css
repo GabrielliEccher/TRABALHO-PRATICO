@@ -181,6 +181,9 @@ span{
     padding: 13px;
     font-weight: bold;
 }
+p{
+    color: var(--preto);
+}
 
 /*BOTAO COMPRA*/
 
