@@ -17,6 +17,7 @@
     box-sizing: border-box;
 }
 
+/*PRODUTOS EM DESTAQUE*/
 
 h2{
     color: var(--marrom);
@@ -107,9 +108,20 @@ display: block;
 
 /* BANNER */
 
+.secao-produtos{
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
 .img-banner{
     width: 100%;
-    margin: 35px 0px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.img-banner-wpp{
+    width: 100%;  
+    margin-bottom: 45px;
 }
 
 /* PRODUTOS */
@@ -129,7 +141,7 @@ display: block;
 }
 
 
-/*imagem produto*/
+/*IMAGEM PRODUTO*/
 
     .produto{
         background-color: rgb(255, 255, 255);    /*fundo apenas onde esta img*/
@@ -137,7 +149,7 @@ display: block;
         width: 100%;                               /*100% da largura do elemento pai*/
     }
 
-/*conteudo produto*/
+/*CONTEUDO PRODUTO*/
 
     .item{
         background-color: white;       /*fundo parte do card que não é a img*/
