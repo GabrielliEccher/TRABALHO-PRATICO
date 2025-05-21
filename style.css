@@ -141,8 +141,8 @@ display: block;
 
     .item{
         background-color: white;       /*fundo parte do card que não é a img*/
-        border: 2px solid var(--rosa);   /*borda card*/
-        border-radius: 5px;     
+        border: 3px solid var(--rosa);   /*borda card*/
+        border-radius: 15px;
 
         display: flex;
         flex-direction: column;      /*deixar conteudo embaixo um do outro*/
@@ -152,6 +152,8 @@ display: block;
 
         width: 250px;               /*largura e altura card*/
         height: 350px;
+        padding-bottom: 15px;       /*distancia de baixo*/
+        padding-top: 15px;          /*distancia de cima*/
     }
 
 .item img {
@@ -160,12 +162,33 @@ display: block;
     max-width: 100%;                /*A imagem não vai ultrapassar a largura do seu conteiner*/
 }
 
-/*valor itens*/
+/*PREÇO PRODUTOS*/
 
 span{
     color: var(--marrom);
     padding: 13px;
     font-weight: bold;
+}
+
+/*BOTAO COMPRA*/
+
+button{
+    background-color: var(--ciano);
+    color: var(--ciano-escuro);
+    font-weight: bold;
+    padding: 5px 18px;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px var(--ciano-escuro);
+
+    transform: scale(1);                /*animação botão*/
+    transition: transform 0.3s ease;    /*tempo e suavidade*/
+}
+
+button:hover{
+    transform: scale(1.1);  /*Aumenta o botão */
 }
 
 /* rodapé */
