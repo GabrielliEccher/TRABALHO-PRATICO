@@ -14,7 +14,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: serif Georgia, 'Times New Roman', Times, serif;
+    font-family: serif Georgia, 'Times New Roman', Times, serif;                   /*fonte tudo*/
 }
 
 /*PRODUTOS EM DESTAQUE*/
@@ -26,7 +26,7 @@ h2{
     font-size: 26;
 }
 
-/* barra nav ciano */
+/* BARRA NAV CIANO */
 
 nav{
     background-color: var(--ciano);    
@@ -137,7 +137,7 @@ display: block;
     .itens {
     display: flex;
     flex-wrap: wrap;  /*faz quebra de linha conforme o tamanho da tela*/
-    gap: 100px;     /*espaçamento entre os produtos*/
+    gap: 60px;     /*espaçamento entre os produtos*/
 }
 
 
