@@ -160,12 +160,12 @@ display: block;
         flex-direction: column;      /*deixar conteudo embaixo um do outro*/
         justify-content: center;     /*centraliza horizontal*/
         align-items: center;         /*centraliza vertical*/
-        text-align: center;          /*centralizar texto*/
+        text-align: center;          
 
         width: 250px;               /*largura e altura card*/
         height: 350px;
-        padding-bottom: 15px;       /*distancia de baixo*/
-        padding-top: 15px;          /*distancia de cima*/
+        padding-bottom: 15px;       
+        padding-top: 15px;          
     }
 
 .item img {
@@ -232,11 +232,11 @@ button:hover{
 .card img {
   width: 180px;
   height: 180px;
-  object-fit: contain;               /*Imagem sem corte ou distorção*/
+  object-fit: contain;                   /*Imagem sem corte ou distorção*/
   background-color: white;
-  border:7px solid var(--areia);
+  border:7px solid var(--areia);         /*circulo*/
   border-radius: 50%;
-  padding: 10px;
+  padding: 10px;                         /*distancia do circulo*/
   transition: transform 0.3s ease;
 }
 
