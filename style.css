@@ -50,8 +50,8 @@ nav a{
 .nav-logo{                               /*imagem logo*/
 display: flex;
 align-items: center;
-justify-content: space-between;
-padding: 5px 50px 5px 5px;
+justify-content: space-between;         /*separa da logo*/
+padding: 5px 50px 5px 5px;              /*espaçamento ao redor de tudo*/
 }
 
 .nav-conta{
@@ -65,7 +65,7 @@ padding: 5px 50px 5px 5px;
 
 
 
-/* dropdown menu */
+/* DROPDOWN MENU */
 
 .nav{
     background-color: var(--areia);
@@ -91,20 +91,20 @@ nav li a:hover{
     color: var(--bege);
 }
 
-.dropdown-menu{                    /*esconde o menu*/
+.dropdown-menu{                         /*esconde o menu*/
     position: absolute;
     display: none;
 }
 
-.dropdown-menu a{
+.dropdown-menu a{                       /*quebra linha*/
 display: block;
 }
 
 .dropdown:hover .dropdown-menu{
-    display: block;
+    display: block;                     /*quebra linha*/
 }
 
-/* main */
+/* MAIN */
 
 /* BANNER */
 
@@ -113,20 +113,20 @@ display: block;
     margin-bottom: 45px;
 }
 
-.img-banner{
+.img-banner{                     /*plano de saúde*/
     width: 100%;
     margin-top: 45px;
     margin-bottom: 45px;
 }
 
-.img-banner-wpp{
+.img-banner-wpp{                /*compre pelo wpp*/
     width: 100%;  
     margin-bottom: 45px;
 }
 
 /* PRODUTOS */
 
-    .container{
+    .container{                       
         display: flex;
         justify-content: center;
         align-items: center;
@@ -171,7 +171,7 @@ display: block;
 .item img {
     height: auto;                   /*mantem a proporção original da imagem */
     max-height: 180px;              /*limite de altura */
-    max-width: 100%;                /*A imagem não vai ultrapassar a largura do seu conteiner*/
+    max-width: 100%;                /*A imagem não vai ultrapassar a largura do conteiner*/
 }
 
 /*PREÇO PRODUTOS*/
@@ -179,7 +179,7 @@ display: block;
 span{
     color: var(--marrom);
     padding: 13px;
-    font-weight: bold;
+    font-weight: bold;              /*negrito*/
 }
 p{
     color: var(--preto);
@@ -193,7 +193,7 @@ button{
     font-weight: bold;
     padding: 5px 18px;
     border: none;
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
     cursor: pointer;
     box-shadow: 2px 2px 0px var(--ciano-escuro);
@@ -203,20 +203,23 @@ button{
 }
 
 button:hover{
-    transform: scale(1.1);  /*Aumenta o botão */
+    transform: scale(1.1);              /*Aumenta o botão */
 }
 
+/*TODOS OS ITENS*/
 
 .tdcachorro{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 150px;
+    flex-wrap: wrap;                   /*faz quebra de linha conforme o tamanho da tela*/
+    gap: 150px;                        /*distancia entre elementos*/
 
     margin-bottom: 45px;            
     margin-top: 15px;
 
 }
+
+/*CADA CARD*/
 
 .card{
     width: 100px;
@@ -229,7 +232,7 @@ button:hover{
 .card img {
   width: 180px;
   height: 180px;
-  object-fit: contain;
+  object-fit: contain;               /*Imagem sem corte ou distorção*/
   background-color: white;
   border:7px solid var(--areia);
   border-radius: 50%;
