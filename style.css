@@ -74,11 +74,11 @@ padding: 5px 50px 5px 5px;
 }
 
 nav li{
-display: inline-block;
+display: inline-block;                /*não quebra a linha*/
 }
 
 nav li a{
-    display: inline-block;
+    display: inline-block;           /*não quebra a linha, um do lado do outro*/
     color: var(--marrom);
     text-decoration: none;
     padding: 20px 50px;
@@ -90,7 +90,7 @@ nav li a:hover{
     color: var(--bege);
 }
 
-.dropdown-menu{
+.dropdown-menu{                    /*esconde o menu*/
     position: absolute;
     display: none;
 }
